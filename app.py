@@ -17,7 +17,7 @@ class QueryModel(BaseModel):
     CONTENT: str
 
 # Langchain and Groq initialization (Modify according to actual usage and initialization requirements)
-llm = ChatGroq(groq_api_key="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", model_name='mixtral-8x7b-32768')
+llm = ChatGroq(groq_api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxx", model_name='mixtral-8x7b-32768')
 prompt_template = """Use the following context to answer the question:
 
 {CONTENT}
