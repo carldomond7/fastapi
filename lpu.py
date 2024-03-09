@@ -26,7 +26,7 @@ async def process_request(user_request: UserRequest):
     Context: {content}
     
 
-    Question: {query}}
+    Question: {query}
     """
 
 # Define the prompt structure
