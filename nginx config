@@ -1,8 +1,7 @@
 server {
         listen 80;
-        server_name INSTANCE PUBLIC IP;
+        server_name PUBLIC IP;
         location / {
-                proxy_pass http://127.0.0.1:8000
+                proxy_pass http://127.0.0.1:8000;
         }
 }
-~                                                                           ~                                                                           ~            
